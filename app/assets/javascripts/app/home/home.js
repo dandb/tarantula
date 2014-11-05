@@ -86,6 +86,8 @@ Ext.testia.MainContentHome = function(gui) {
 
     this.titleToolbar.addText('Dashboard');
     this.titleToolbar.addSeparator();
+    this.titleToolbar.addText('Dashboard');
+    this.titleToolbar.addSeparator();
     this.titleToolbar.addText("Test Object");
     this.titleToolbar.add(this.testObjectCombo);
     this.testObjectCombo.store.load();
